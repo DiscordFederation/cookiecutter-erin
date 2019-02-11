@@ -2,7 +2,7 @@
 token = ""
 debug = false
 project = "{{cookiecutter.project_slug}}"
-plugins = ["plugins"]
+plugins_folder = "plugins"
 
 
 [database]
