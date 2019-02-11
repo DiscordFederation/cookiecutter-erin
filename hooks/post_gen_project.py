@@ -1,7 +1,7 @@
 from typing import List
 
 ignore_lines = """
-# Erin Configuration Files
+# Glia Configuration Files
 {{cookiecutter.config_file}}
 """
 

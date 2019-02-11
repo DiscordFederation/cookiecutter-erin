@@ -26,8 +26,8 @@ class Help:
         )
         response.add_field(
             name="​",
-            value="Powered by [Erin]"
-                  "(https://github.com/DisordFederation/Erin)")
+            value="Powered by [Glia]"
+                  "(https://github.com/DisordFederation/Glia)")
 
         if command:
             del response
