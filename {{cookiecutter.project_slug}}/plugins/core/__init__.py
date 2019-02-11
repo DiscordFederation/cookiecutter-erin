@@ -1,6 +1,6 @@
-from core.error import CommandError
-from core.navigation import Help
-from core.startup import Login
+from plugins.core.error import CommandError
+from plugins.core.navigation import Help
+from plugins.core.startup import Login
 
 plugin_data = {
     "name": "Core Plugins"

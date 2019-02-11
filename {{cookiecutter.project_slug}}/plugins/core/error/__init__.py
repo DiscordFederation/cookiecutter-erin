@@ -1,1 +1,1 @@
-from core.error.command_error_handler import CommandError
+from plugins.core.error.command_error_handler import CommandError
