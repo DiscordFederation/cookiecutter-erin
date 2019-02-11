@@ -13,4 +13,4 @@ def append_contents(filename, items: List[str]):
 
 
 if __name__ == "__main__":
-    append_contents(".ignore", ignore_lines.strip("\n").split("\n"))
+    append_contents(".gitignore", ignore_lines.strip("\n").split("\n"))
