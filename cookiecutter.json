@@ -1,0 +1,8 @@
+{
+  "project_name": "Bot",
+  "project_slug": "bot",
+  "version": "0.1.0.dev0",
+  "_copy_without_render": [
+        "plugins/*"
+    ]
+}
