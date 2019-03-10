@@ -1,13 +1,11 @@
 import discord
+
 from discord.ext import commands
 
 
 class CommandError(commands.Cog, name="Command Error"):
     def __init__(self, bot):
         self.bot = bot
-        self.data = {
-            "name": "Command Error"
-        }
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx, exception):
