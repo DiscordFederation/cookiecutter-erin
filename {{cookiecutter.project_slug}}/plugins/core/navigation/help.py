@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 
-class Help:
+class HelpMenu(commands.Cog, name="Help Menu"):
     def __init__(self, bot):
         self.bot = bot
         self.logger = self.bot.logger
@@ -55,5 +55,5 @@ class Help:
 
 
 def setup(bot):
-    bot.add_cog(Help(bot))
+    bot.add_cog(HelpMenu(bot))
 

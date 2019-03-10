@@ -1,1 +1,1 @@
-from plugins.core.navigation.help import Help
+from plugins.core.navigation.help import HelpMenu
