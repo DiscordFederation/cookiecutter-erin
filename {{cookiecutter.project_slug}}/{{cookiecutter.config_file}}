@@ -8,7 +8,8 @@ log_type = "Timed"
 
 [database]
 
-enabled = false
+enabled = false  # Change this if your bot will use the database
+driver= "mongo"
 
 #host = ["myvps.com"] # This can also be a list of hosts (including replica sets)
 #port = 27017
