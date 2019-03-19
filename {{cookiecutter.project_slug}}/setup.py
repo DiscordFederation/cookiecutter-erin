@@ -13,7 +13,7 @@ from setuptools import setup, find_packages
 
 # Add your requirements here according to pep-0508
 INSTALL_REQUIRES = [
-    "glia @ git+https://github.com/DiscordFederation/Glia.git@rewrite#egg=glia[voice]"
+    "erin @ git+https://github.com/DiscordFederation/Erin.git@rewrite#egg=erin[voice]"
 ]
 
 EXTRAS_REQUIRE = {

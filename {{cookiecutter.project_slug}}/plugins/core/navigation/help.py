@@ -24,8 +24,8 @@ class HelpMenu(commands.Cog, name="Help Menu"):
         )
         response.add_field(
             name="​",
-            value="Powered by [Glia]"
-                  "(https://github.com/DisordFederation/Glia)")
+            value="Powered by [Erin]"
+                  "(https://github.com/DisordFederation/Erin)")
 
         if command:
             del response
