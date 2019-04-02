@@ -1,5 +1,5 @@
 =================
-Cookiecutter Glia
+Cookiecutter Erin
 =================
 
-Project Scaffolding for the Glia discord bot framework.
+Project Scaffolding for the Erin discord bot framework.
