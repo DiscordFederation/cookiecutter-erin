@@ -28,9 +28,6 @@ description = ""
 [help]
 
 color = 0x6C5CE7
-description = """
-Lost? You can find the links to navigate this bot below:
-
-[Full Command List](https://github.com/DiscordFederation/Glia/wiki)
-[Support Server](https://discord.gg/a5DFCpC)
+support_text = """
+Need further help? Ping us at our [support server](https://discord.gg/cytVBaH)!
 """
