@@ -21,7 +21,6 @@ driver= "mongo"
 [global]
 
 name = "{{cookiecutter.project_name}}"
-icon_url = "https://i.imgur.com/m3Lagqr.png"
 prefixes = [">"]
 description = ""
 
