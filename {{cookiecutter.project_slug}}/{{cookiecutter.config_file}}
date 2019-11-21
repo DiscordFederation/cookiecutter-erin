@@ -4,6 +4,7 @@ debug = false
 project = "{{cookiecutter.project_slug}}"
 plugins_folder = "plugins"
 log_type = "Timed"
+log_level = "Info"
 
 
 [database]
