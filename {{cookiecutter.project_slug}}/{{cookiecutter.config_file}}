@@ -4,7 +4,7 @@ debug = false
 project = "{{cookiecutter.project_slug}}"
 plugins_folder = "plugins"
 log_type = "Timed"
-log_level = "Info"
+log_level = "INFO"
 
 
 [database]
@@ -13,10 +13,12 @@ enabled = false  # Change this if your bot will use the database
 driver= "mongo"
 
 #uri = "mongodb://myDBReader:D1fficultP%40ssw0rd@mongodb0.example.com:27017/admin"
+#database = "pingbot"
 
 #################################################################################
-# If you filled 'uri', then you can ignore the rest of the database configuration.
-##################################################################################
+# If you filled 'uri' and 'database', then you can ignore the rest of the
+# database configuration.
+#################################################################################
 
 #host = ["myvps.com"] # This can also be a list of hosts (including replica sets)
 #port = 27017
